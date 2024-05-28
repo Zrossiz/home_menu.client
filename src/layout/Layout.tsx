@@ -1,6 +1,7 @@
 import { LayoutProps } from "./Layout.props"
 import styles from './Layout.module.scss';
 import { Header } from "./Header/Header";
+import { Footer } from "./Footer/Footer";
 
 export const Layout = ({ children }: LayoutProps) => {
     return (
@@ -9,7 +10,7 @@ export const Layout = ({ children }: LayoutProps) => {
             <main className={styles.main}>
                 {children}
             </main>
-            <div className={styles.footer}>footer</div>
+            <Footer />
         </div>
     )
 }
