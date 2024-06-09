@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    background-color: var(--blue);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 20px;
+    }
+
+    .navWrapper {
+        
+        a {
+            color: var(--yellow);
+            font-size: 24px;
+        }
+    }
+}
