@@ -1,8 +1,8 @@
 export interface ICategory {
     id: number;
     name: string;
-    image: string | null;
     description: string;
+    slug: string;
     created_at: Date;
     updated_at: Date;
 }

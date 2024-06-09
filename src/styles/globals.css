@@ -1,6 +1,8 @@
 :root {
   --blue: #006aad;
   --yellow: yellow;
+  --black: #000;
+  --white: #fff;
 }
 
 * {
