@@ -10,7 +10,7 @@ export default function Home({ categories }: IHomeProps) {
   return (
     <Layout>
       <div className={styles.wrapper}>
-        {Array.isArray(categories) && categories.map((item: ICategory) => {
+        {categories && 'data' in categories && categories.data.map((item: ICategory) => {
           return (
             <CategoryItem
              key={item.id}

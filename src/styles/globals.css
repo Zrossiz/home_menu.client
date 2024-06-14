@@ -1,6 +1,6 @@
 :root {
-  --blue: #006aad;
-  --yellow: yellow;
+  --blue: #4e4da2;
+  --yellow: #ffe71b;
   --black: #000;
   --white: #fff;
 }
@@ -10,4 +10,12 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
+  font-family: "Newsreader", serif !important;
+  font-weight: 800;
+  font-style: italic;
+}
+
+h2 {
+  letter-spacing: 6px;
+  font-size: 36px;
 }
